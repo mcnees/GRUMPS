@@ -1,9 +1,7 @@
 # GRUMPS
 GRUMPS: General Relativity Using Multiple Processors and Symmetries
 
-A _Mathematica_ package for coordinate basis calculations of tensors that show up in general relativity and other gravitational theories. Calculations are performed in parallel across all available processors, and make use of symmetries to reduce the number of computations.
-
-GRUMPS is a [_Mathematica_](http://wolfram.com) package for coordinate basis calculations of curvature tensors and related objects. It is designed to be fast and easy to use. Most modern CPUs are multi-core, meaning _Mathematica_ can run multiple kernels simultaneously. GRUMPS takes advantage of this by distributing calculations and simplifications across all available kernels.
+GRUMPS is a [_Mathematica_](http://wolfram.com) package for coordinate basis calculations of curvature tensors and related objects that show up in general relativity and other gravitational theories. It is designed to be fast and easy to use. Most modern CPUs are multi-core, meaning _Mathematica_ can run multiple kernels simultaneously. GRUMPS takes advantage of this by distributing calculations and simplifications across all available kernels.
 
 GRUMPS is meant to be used as a scratchpad for quick calculations. It is not intended to take the place of more advanced systems. If you are using _Mathematica_ for complicated tensor calculations I strongly recommend the [xAct suite of packages.](http://xact.es/index.html) They have a bit of a learning curve, but they define the state-of-the-art in tensor computer algebra.
 
